@@ -2,8 +2,10 @@ import React from 'react';
 import "./Portofolio.scss";
 
 
-export default function Portofolio() {
+function Portofolio() {
   return (
     <div className='portofolio' id='portofolio'></div>
   )
 }
+
+export default Portofolio;

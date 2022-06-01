@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
+import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
+import Hamburger from "./Hamburger";
 
 
 
@@ -11,10 +13,11 @@ function Navbar(){
             <div className="left">
                 <a href="#introo" className="logo">Some Fancy Logo</a>
                 <div className="item-container">
-                
+                <EmailRoundedIcon/>
+                <span>donald.duck@gmail.com</span>
                 </div>
             </div>
-            <div className="right">Right</div>
+            <div className="right"><Hamburger/></div>
         </div>
 
         </div>

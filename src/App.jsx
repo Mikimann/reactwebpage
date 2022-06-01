@@ -4,6 +4,7 @@ import Intro from "./components/Intro";
 import Portofolio from './components/Portofolio';
 import Contact from './components/Contact';
 import "./App.scss";
+import Testimonials from './components/Testimonials';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <div className="sections">
       <Intro />
       <Portofolio />
+      <Testimonials/>
       <Contact />
     </div>
     </div>
