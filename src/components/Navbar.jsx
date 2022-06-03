@@ -14,7 +14,7 @@ function Navbar(){
                 <a href="#introo" className="logo">Some Fancy Logo</a>
                 <div className="item-container">
                 <EmailRoundedIcon/>
-                <span>donald.duck@gmail.com</span>
+                <span>email address</span>
                 </div>
             </div>
             <div className="right"><Hamburger/></div>
