@@ -1,9 +1,10 @@
 import { React, useState } from "react";
-import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
-import Portofolio from "./components/Portofolio";
-import Contact from "./components/Contact";
-import Testimonials from "./components/Testimonials";
+import Navbar from "./components/Navbar/Navbar";
+import Intro from "./components/Intro/Intro";
+import Portofolio from "./components/Portofolio/Portofolio";
+import Contact from "./components/Contact/Contact";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Menu from "./components/Menu/Menu";
 import "./App.scss";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portofolio />
